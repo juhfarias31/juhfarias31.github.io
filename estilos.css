@@ -68,3 +68,18 @@ body{background-color:#526C8F;}
     cursor: pointer;}
 
 .btn:hover{ width: 75px; height: 75px;}
+
+.btn2 {
+    background-image: url('Instagram.png');
+    background-size: cover;
+    background-position: center; 
+    display: inline-block; 
+    border: none; 
+    padding: 20px; 
+    width: 70px; 
+    border-radius: 10px; 
+    height: 70px; 
+    transition: all 0.5s; 
+    cursor: pointer;}
+
+.btn2:hover{ width: 75px; height: 75px;}
