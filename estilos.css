@@ -1,17 +1,18 @@
-.div5{
+.div1{
+    text-align: center;
     background-color: #758FAF;
     border: 2px solid #08102b;
     margin: 20px;
     padding: 20px;
-    font-size: x-large;
+    font-size: xx-large;
 
 }
 body{background-color:#526C8F;}
 
-.div7{
+.div2{
     text-align:justify;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:x-large;
+    font-size:xx-large;
 
 }
 
@@ -19,7 +20,7 @@ body{background-color:#526C8F;}
     width: 300px;
     height: 300px;
     border-radius: 100%;
-    background-image: url('Farinha.jpg');
+    background-image: url('./img/Farinha.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -35,7 +36,8 @@ body{background-color:#526C8F;}
     text-decoration: underline;
   }
 
-.div6{
+.div3{
+    text-align: center;
     font-family:'Gill Sans';
     font-style:normal;
     font-size:xx-large;
@@ -55,7 +57,8 @@ body{background-color:#526C8F;}
     a {text-decoration: none;}
 
 .btn {
-    background-image: url('Linkedin.png');
+    text-align: center;
+    background-image: url('./img/Linkedin.png');
     background-size: cover;
     background-position: center; 
     display: inline-block; 
@@ -70,7 +73,24 @@ body{background-color:#526C8F;}
 .btn:hover{ width: 75px; height: 75px;}
 
 .btn2 {
-    background-image: url('Instagram.png');
+    text-align: center;
+    background-image: url('./img/Instagram.png');
+    background-size: cover;
+    background-position: center; 
+    display: inline-block; 
+    border: none; 
+    padding: 20px; 
+    width: 70px; 
+    border-radius: 10px; 
+    height: 70px; 
+    transition: all 0.5s; 
+    cursor: pointer;}
+
+.btn2:hover{ width: 75px; height: 75px;}
+
+.btn3 {
+    text-align: center;
+    background-image: url('./img/github.jpg');
     background-size: cover;
     background-position: center; 
     display: inline-block; 
